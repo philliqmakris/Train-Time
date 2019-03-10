@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500" rel="stylesheet">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Train Time</title>
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+          <h1 class="display-4">Train Times</h1>
+          <p class="lead">This website will provide up-to-date information about various trains, 
+              namely their arrival times and how many minutes remain until they arrive at their station</p>
+        </div>
+      </div>
+
+              <div class="card">
+                    <div class="card-header">
+                      <h2>Train Times</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="container">
+                                <table class="table table-sm text-center" id="traintable">
+                                        <tr>
+                                          <th>Train Name</th>
+                                          <th>Destination</th>
+                                          <th>Frequency</th>
+                                          <th>Next Arrival</th>
+                                          <th>Minuets Away</th>
+                                        </tr>
+                                        
+                                          
+                                        
+                                         
+                                      </table>
+                                      
+                                      
+                            
+                        </div>
+                        </div>
+                        </div>
+                          
+                        
+
+                        <div class="card" id="addTrain">
+                          <div class="card-header">
+                            <h2 id="addHeader">Add Train</h2>
+                          </div>
+                          <div class="card-body">
+                            <div class="container">
+                              <div class="row">
+                                <div class="col-md-3">
+                                  <h5>Train Name</h5>
+                                  <input id="userName" type="text">
+                                </div>
+  
+                                <div class="col-md-3">
+                                    <h5>Destination</h5>
+                                    <input id="destination" type="text">
+                                  </div>
+  
+                                  <div class="col-md-3">
+                                      <h5>First Train Time<h6>(HH:hh-military time)</h6></h5>
+                                      <input id="trainTime" type="text">
+                                    </div>
+  
+                                    <div class="col-md-2">
+                                        <h5>Frequency (min)</h5>
+                                        <input id="frequency" type="text">
+                                      </div>
+                                      <button id="submit" type="button" class="btn btn-info">Submit</button>
+                              </div>
+                              
+                            </div>
+                            
+                              
+                          </div>
+                          </div>
+
+
+
+              
+              
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
+   
+   
+   <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+   <script src="app.js"></script>
+</body>
+</html>

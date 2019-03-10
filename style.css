@@ -1,0 +1,59 @@
+h1 {
+    font-size: 100px !important;
+    font-weight: lighter !important;
+}
+
+.card-header {
+    background-color: rgba(0, 0, 116, 0.87);
+    
+}
+
+.jumbotron {
+    background-color: rgba(0, 0, 116, 0.918);
+    
+    
+    
+}
+
+.card {
+    margin: 30px;
+    background-color: rgba(209, 209, 209, 0.856);
+    border: solid;
+    border-color: rgba(255, 255, 255, 0);
+}
+
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+    background-image: url("https://i.imgur.com/4p20g04.jpg");
+    background-attachment: fixed;
+    color: rgb(228, 228, 228);
+
+}
+
+h4 {
+    font-weight: bold;
+}
+
+
+
+.table {
+    font-size: 21px;
+    
+}
+
+#addTrain {
+    color: black;
+}
+
+#addHeader {
+    color: rgb(228, 228, 228);
+
+
+}
+
+#submit {
+    text-align: center;
+}
+
+
+
